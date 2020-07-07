@@ -1,0 +1,153 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Reginauld",
+      "email": "rfaragher0@free.fr",
+      "age": 1
+    },
+    {
+      "id": 2,
+      "name": "Jenica",
+      "email": "jglanfield1@si.edu",
+      "age": 2
+    },
+    {
+      "id": 3,
+      "name": "Thain",
+      "email": "tlosemann2@nih.gov",
+      "age": 3
+    },
+    {
+      "id": 4,
+      "name": "Kitti",
+      "email": "kgilfillan3@infoseek.co.jp",
+      "age": 4
+    },
+    {
+      "id": 5,
+      "name": "Far",
+      "email": "fdumbreck4@quantcast.com",
+      "age": 5
+    },
+    {
+      "id": 6,
+      "name": "Isac",
+      "email": "igrosvenor5@patch.com",
+      "age": 6
+    },
+    {
+      "id": 7,
+      "name": "Janaye",
+      "email": "jdrabble6@naver.com",
+      "age": 7
+    },
+    {
+      "id": 8,
+      "name": "Spike",
+      "email": "sprudence7@guardian.co.uk",
+      "age": 8
+    },
+    {
+      "id": 9,
+      "name": "Rickard",
+      "email": "raddicott8@livejournal.com",
+      "age": 9
+    },
+    {
+      "id": 10,
+      "name": "Bernie",
+      "email": "bbrinded9@angelfire.com",
+      "age": 10
+    },
+    {
+      "name": "R123",
+      "email": "r123@free.fr",
+      "age": 1,
+      "id": 11
+    },
+    {
+      "operationName": "user",
+      "variables": {
+        "id": "1"
+      },
+      "query": "query user($id: ID!) {\n  user(id: $id) {\n    id\n    name\n    email\n    __typename\n  }\n}\n",
+      "id": 12
+    },
+    {
+      "operationName": "insertUser",
+      "variables": {
+        "name": "abc",
+        "email": "a@g.com"
+      },
+      "query": "mutation insertUser($name: String!, $email: String!) {\n  insertUser(name: $name, email: $email) {\n    id\n    name\n    email\n    __typename\n  }\n}\n",
+      "id": 13
+    },
+    {
+      "operationName": "deleteUser",
+      "variables": {
+        "id": "1"
+      },
+      "query": "mutation deleteUser($id: ID!) {\n  deleteUser(id: $id)\n}\n",
+      "id": 14
+    },
+    {
+      "operationName": "insertUser",
+      "variables": {
+        "name": "abc",
+        "email": "mallipeddiruchitha@gmail.com"
+      },
+      "query": "mutation insertUser($name: String!, $email: String!) {\n  insertUser(name: $name, email: $email) {\n    id\n    name\n    email\n    __typename\n  }\n}\n",
+      "id": 15
+    },
+    {
+      "operationName": "insertUser",
+      "variables": {
+        "name": "abc",
+        "email": "mallipeddiruchitha@gmail.com"
+      },
+      "query": "mutation insertUser($name: String!, $email: String!) {\n  insertUser(name: $name, email: $email) {\n    id\n    name\n    email\n    __typename\n  }\n}\n",
+      "id": 16
+    },
+    {
+      "operationName": "deleteUser",
+      "variables": {
+        "id": "1"
+      },
+      "query": "mutation deleteUser($id: ID!) {\n  deleteUser(id: $id)\n}\n",
+      "id": 17
+    },
+    {
+      "operationName": "user",
+      "variables": {
+        "id": "1"
+      },
+      "query": "query user($id: ID!) {\n  user(id: $id) {\n    id\n    name\n    email\n    __typename\n  }\n}\n",
+      "id": 18
+    },
+    {
+      "operationName": "user",
+      "variables": {
+        "id": "1"
+      },
+      "query": "query user($id: ID!) {\n  user(id: $id) {\n    id\n    name\n    email\n    __typename\n  }\n}\n",
+      "id": 19
+    },
+    {
+      "operationName": "user",
+      "variables": {
+        "id": "1"
+      },
+      "query": "query user($id: ID!) {\n  user(id: $id) {\n    id\n    name\n    email\n    __typename\n  }\n}\n",
+      "id": 20
+    },
+    {
+      "operationName": "user",
+      "variables": {
+        "id": "1"
+      },
+      "query": "query user($id: ID!) {\n  user(id: $id) {\n    id\n    name\n    email\n    __typename\n  }\n}\n",
+      "id": 21
+    }
+  ]
+}
